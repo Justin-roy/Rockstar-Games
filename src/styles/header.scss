@@ -1,0 +1,25 @@
+@import "colors.scss";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  > h1 {
+    margin: 1rem;
+    font-weight: 500;
+    color: $second;
+  }
+  > main {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    > a {
+      color: $dark;
+      text-decoration: none;
+      margin: 1rem;
+
+      &:hover {
+        color: $third;
+      }
+    }
+  }
+}

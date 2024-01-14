@@ -1,0 +1,138 @@
+@media screen and (max-width: 830px) {
+  .home {
+    height: 60vh;
+  }
+  .home2 {
+    height: 70%;
+    > div {
+      width: 80%;
+    }
+  }
+  .home3 {
+    height: 60%;
+    > div {
+      border-radius: 0;
+      width: 100%;
+      height: 60%;
+    }
+  }
+  .home4 {
+    height: 60vh;
+    > div {
+      border-radius: 0;
+      width: 100%;
+      height: 60vh;
+    }
+  }
+  .home5 {
+    height: 60vh;
+    > main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      border-radius: 0;
+      width: 100%;
+      height: 60vh;
+      >form>div{
+        > label {
+            width: 40%;
+          }
+          > input {
+            width: 80vh;
+          }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+   nav{
+    padding: 1rem;
+    > h1{
+        display: none;
+    }
+    >main{
+      width: 100%;
+      justify-content: center;
+      >a{
+        margin: 0.5rem;
+      }
+    }
+   }
+  .home {
+    height: 70vh;
+    >main>h1{
+        font-size: 40px;
+    }
+    >main>p{
+        font-size: small;
+        text-align: start;
+    }
+    margin-bottom: 5rem;
+  }
+  .home2 {  
+    height: 100vh;  
+    // display: inline;
+    flex-direction: column;
+    > img{
+        margin-top: 100px;
+        padding: 2rem;
+        width: 100%;
+    }      
+    > div {
+      width: 100%;   
+      padding: 2rem;
+    }
+    > div > p {
+      font-size: small;  
+    }
+  }
+  .home3 {
+    height: 60%;
+    > div {
+      border-radius: 0;
+      width: 100%;
+      height: 60%;
+    }
+    > div > p {
+      margin-top: 1rem;
+      font-size: small;
+      padding: 0.5rem;
+    }
+  }
+  .home4 {
+    height: 90vh;
+    > div {
+      border-radius: 0;
+      width: 100%;
+      height: 90vh;
+    }
+    > div >article>div >svg{
+        font-size: 2rem;
+    }
+    > div >article>div {
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+  }
+  .home5 {
+      > main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      border-radius: 0;
+      width: 100%;
+      height: 80vh;
+      >form>div{
+       
+        > label {
+            width: 30%;
+          }
+          > input {
+            width: 50vh;
+          }
+      }
+    }
+  }
+}
